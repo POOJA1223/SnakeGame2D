@@ -18,7 +18,7 @@ public class Board extends JPanel implements ActionListener {
     //Images
     Image body,head,apple;
     Timer timer;
-    int DELAY=200;
+    int DELAY=250;
     boolean leftDirection=true;
     boolean rightDirection=false;
     boolean downDirection=false;
@@ -118,8 +118,8 @@ public class Board extends JPanel implements ActionListener {
         FontMetrics fontMetrics=getFontMetrics(small);
         g.setColor(Color.white);
         g.setFont(small);
-        g.drawString(msg,(B_WIDTH-fontMetrics.stringWidth(msg))/2,B_HEIGHT/3);
-        g.drawString(scoreMsg,(B_WIDTH-fontMetrics.stringWidth(scoreMsg))/2,B_HEIGHT/2);
+        g.drawString(msg,(B_WIDTH-fontMetrics.stringWidth(msg))/2,B_HEIGHT/4);
+        g.drawString(scoreMsg,(B_WIDTH-fontMetrics.stringWidth(scoreMsg))/2,3*(B_HEIGHT/4));
 
     }
     @Override
