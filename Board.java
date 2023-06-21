@@ -50,7 +50,7 @@ public class Board extends JPanel implements ActionListener {
     }
     //Load Images from resources folder to Image object
     public void loadImages(){
-        ImageIcon bodyIcon=new ImageIcon("C:\Users\pooja\Documents\GitHub\\SnakeGame2D\resources\\dot.png");
+        ImageIcon bodyIcon=new ImageIcon("C:\\Users\\pooja\\Documents\\GitHub\\SnakeGame2D\\resources\\dot.png");
         body=bodyIcon.getImage();
         ImageIcon headIcon=new ImageIcon("C:\\Users\\pooja\\Documents\\GitHub\\SnakeGame2D\\resources\\head.png");
         head=headIcon.getImage();
